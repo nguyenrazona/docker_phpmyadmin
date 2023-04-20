@@ -9,7 +9,7 @@ ENV UPLOAD_LIMIT=2G
 
 # Add custom configuration
 # Reference: https://hub.docker.com/r/phpmyadmin/phpmyadmin
-# COPY config.user.inc.php /etc/phpmyadmin/config.user.inc.php
+COPY config.user.inc.php /etc/phpmyadmin/config.user.inc.php
 
 # Change PHP garbage collection timeout
 # Reference: https://hub.docker.com/_/php (Configuration)
