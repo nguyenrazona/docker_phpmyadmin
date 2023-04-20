@@ -1,2 +1,1 @@
 # PHPMyAdmin docker container
-- Test
